@@ -1,26 +1,81 @@
-# Nostra - Nostra Style E-commerce Website
+# 🛍️ Nostra – E-commerce Website
 
-A responsive clothing e-commerce website built with HTML, CSS and JavaScript, following the layout and learning requirements of the supplied Nostra reference.
+Nostra is a responsive fashion e-commerce website built using **HTML, CSS, and JavaScript**.  
+The website provides a clean and modern shopping interface for exploring fashion products and collections.
 
-## Pages
-- Home
-- Collections
-- Contact Us
+## ✨ Features
 
-## JavaScript Features
-- Responsive mobile navigation
-- Live product search
-- Checkbox-based product filtering
-- Clear filters
-- Product count
-- Newsletter form demo
-- Contact form demo
+- 🏠 Responsive Home page
+- 🛍️ Collections page with multiple products
+- 🔎 Product search functionality
+- 🏷️ Category-based product filtering
+- 🎉 Occasion-based filtering
+- 🆕 New Arrivals section
+- ❤️ Most Wanted section with favorite buttons
+- 🎞️ Hero image slider with navigation buttons
+- 📱 Fully responsive design for desktop, tablet, and mobile
+- 📌 Responsive navigation bar with mobile menu
+- 🎁 Dismissible offer bar
+- 📧 Newsletter subscription form
+- 📩 Contact Us form
+- ✨ Smooth scrolling navigation
+- 🎨 Clean and modern UI
 
-## Tech
-HTML5, CSS3, Vanilla JavaScript
+## 🛠️ Technologies Used
 
-## Run
-Open `index.html` in a browser. No installation is required.
+- HTML5
+- CSS3
+- JavaScript
+- Font Awesome
+- Google Fonts
 
-## Note
-The layout is an original implementation based on the supplied Nostra reference. Product/hero images currently point to the public reference image paths so the project can be tested immediately; for your own GitHub submission, you can download/use your own licensed clothing images in the `images` folder.
+## 📄 Pages
+
+### 🏠 Home
+The home page contains:
+
+- Navigation bar
+- Promotional offer bar
+- Hero image slider
+- Brands section
+- Customer experience section
+- New Arrivals
+- Most Wanted products
+- Limited-time offer
+- Newsletter subscription
+- Footer
+
+### 🛍️ Collections
+
+The Collections page allows users to:
+
+- Search for products
+- Filter products by category
+- Filter products by occasion
+- View product count
+- Clear applied filters
+
+### 📩 Contact Us
+
+The Contact page provides a simple contact form where users can submit their:
+
+- Name
+- Email
+- Message
+
+## 📁 Project Structure
+
+```text
+Nostra/
+│
+├── index.html
+├── collections.html
+├── contact.html
+├── style.css
+├── script.js
+├── README.md
+│
+└── images/
+    ├── nostra-logo-only.png
+    ├── hero image.jpg
+    └── other product images
