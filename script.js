@@ -28,28 +28,37 @@ function prevImage() {
         `translateX(-${currentImage * 33.3333}%)`;
 }
 
+// Navbar Active Link
+
 const navLinks = document.querySelectorAll("#navMenu a");
 
+const currentPage =
+    window.location.pathname.split("/").pop() || "index.html";
+
 navLinks.forEach(function(link) {
+
+    const href = link.getAttribute("href");
+
+    // Page links
+    if (!href.startsWith("#")) {
+
+        const linkPage = href.split("#")[0];
+
+        if (linkPage === currentPage) {
+            link.classList.add("active");
+        } else {
+            link.classList.remove("active");
+        }
+    }
+
     link.addEventListener("click", function() {
+
         navLinks.forEach(function(item) {
             item.classList.remove("active");
         });
+
         link.classList.add("active");
     });
-});
-
-const currentPage = window.location.pathname.split("/").pop();
-
-navLinks.forEach(function(link) {
-
-    const linkPage = link.getAttribute("href").split("#")[0];
-    if (linkPage === currentPage) {
-        navLinks.forEach(function(item) {
-            item.classList.remove("active");
-        });
-        link.classList.add("active");
-    }
 });
 
 
