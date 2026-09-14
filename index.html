@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra | Fashion Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="offer-bar" id="offerBar">
+        <span>Sign Up and GET 20% OFF for your first Order</span>
+        <button id="closeOffer" class="close-offer">×</button>
+    </div>
+
+    <header class="navbar">
+        <a href="index.html" class="logo">Nostra</a>
+        <button class="menu-btn" id="menuBtn">☰</button>
+        <nav id="navMenu">
+            <a href="index.html" class="active">Home</a>
+            <a href="#new-arrivals">New Arrivals</a>
+            <a href="#most-wanted">Most Wanted</a>
+            <a href="collections.html">Collections</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-image">
+                <div class="hero-slides">
+                    <img src="./images/hero image.jpg" alt="Nostra fashion collection">
+                    <img src="./images/hero image.jpg" alt="Nostra new collection">
+                    <img src="./images/hero image.jpg" alt="Nostra fashion">
+
+                </div>
+
+                <!-- Left Button -->
+                <button class="slider-btn prev" onclick="prevImage()">❮</button>
+
+                <!-- Right Button -->
+                <button class="slider-btn next" onclick="nextImage()">❯</button>
+
+            </div>
+
+            <div class="hero-content">
+                <h1>Level up your style with our</h1>
+                <h2>Nostra Collections</h2>
+                <a href="collections.html" class="hero-btn">Shop Now →</a>
+            </div>
+
+        </section>
+
+        <section class="brands section">
+            <h2>Brands</h2>
+            <div class="brand-row">
+                <div><span>◉</span>
+                    <p>U.S.Polo</p>
+                </div>
+                <div><span>◈</span>
+                    <p>Peter England</p>
+                </div>
+                <div><span>✦</span>
+                    <p>HRX</p>
+                </div>
+                <div><span>❖</span>
+                    <p>Roadster</p>
+                </div>
+                <div><span>◉</span>
+                    <p>Allen Solly</p>
+                </div>
+                <div><span>◇</span>
+                    <p>Indian Garage</p>
+                </div>
+                <div><span>❖</span>
+                    <p>Max Fashion</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="experience section">
+            <div class="experience-heading">
+                <h2>We Provide Best</h2>
+                <h2>Customer Experiences</h2>
+                <p>We ensure that our customers have the best shopping experience.</p>
+            </div>
+
+            <div class="experience-grid">
+                <article>
+                    <div class="feature-icon">✓</div>
+                    <h3>Original Products</h3>
+                    <p>Quality clothing selected for everyday style and comfort.</p>
+                </article>
+                <article>
+                    <div class="feature-icon">♥</div>
+                    <h3>Satisfaction Guarantee</h3>
+                    <p>Simple shopping with a customer-first experience.</p>
+                </article>
+                <article>
+                    <div class="feature-icon">★</div>
+                    <h3>New Arrival Everyday</h3>
+                    <p>Fresh styles and new fashion picks added regularly.</p>
+                </article>
+                <article>
+                    <div class="feature-icon">↗</div>
+                    <h3>Fast & Free Shipping</h3>
+                    <p>Enjoy fast delivery on qualifying orders.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section products-section" id="new-arrivals">
+            <div class="section-title">
+                <h2>New Arrivals</h2>
+                <a href="collections.html">View All →</a>
+            </div>
+
+            <div class="arrival-grid">
+                <a class="arrival-card" href="collections.html"><img src="./images/Checked Shirt.avif"
+                        alt="Printed shirt"><span>Shop Now →</span></a>
+                <a class="arrival-card" href="collections.html"><img src="./images/Formal Shirt.avif"
+                        alt="Casual pants"><span>Shop Now →</span></a>
+                <a class="arrival-card" href="collections.html"><img src="./images/Printed T-Shirt.avif"
+                        alt="Brown shirt"><span>Shop Now →</span></a>
+                <a class="arrival-card" href="collections.html"><img src="./images/Strip Shirt.avif"
+                        alt="Dark shirt"><span>Shop Now →</span></a>
+            </div>
+        </section>
+
+        <section class="section products-section" id="most-wanted">
+            <div class="section-title">
+                <h2>Most Wanted</h2>
+                <a href="collections.html">View All →</a>
+            </div>
+
+            <div class="most-grid">
+                <article class="most-card">
+                    <div class="sale">Sale</div>
+                    <img src="./images/Casual Shirt.avif" alt="Casual Shirt">
+                    <button class="like-btn">♡</button>
+                </article>
+
+                <article class="most-card">
+                    <div class="sale">Sale</div>
+                    <img src="./images/Checked Shirt.avif" alt="Checked Shirt">
+                    <button class="like-btn">♡</button>
+                </article>
+
+                <article class="most-card">
+                    <div class="sale">Sale</div>
+                    <img src="./images/Formal Shirt.avif" alt="Formal Shirt">
+                    <button class="like-btn">♡</button>
+                </article>
+
+                <article class="most-card">
+                    <div class="sale">Sale</div>
+                    <img src="./images/Printed T-Shirt.avif" alt="Printed T-Shirt">
+                    <button class="like-btn">♡</button>
+                </article>
+
+                <article class="most-card">
+                    <div class="sale">Sale</div>
+                    <img src="./images/Cargo Pant.avif" alt="Cargo Pant">
+                    <button class="like-btn">♡</button>
+                </article>
+
+                <article class="most-card">
+                    <div class="sale">Sale</div>
+                    <img src="./images/Jeans Pat.avif" alt="Jeans">
+                    <button class="like-btn">♡</button>
+                </article>
+
+                <article class="most-card">
+                    <div class="sale">Sale</div>
+                    <img src="./images/T-Shirt.avif" alt="T-Shirt">
+                    <button class="like-btn">♡</button>
+                </article>
+
+                <article class="most-card">
+                    <div class="sale">Sale</div>
+                    <img src="./images/Regular Fit Chinos.avif" alt="Regular Fit Chinos">
+                    <button class="like-btn">♡</button>
+                </article>
+
+                <article class="most-card">
+                    <div class="sale">Sale</div>
+                    <img src="./images/Strip Shirt.avif" alt="Strip Shirt">
+                    <button class="like-btn">♡</button>
+                </article>
+
+            </div>
+
+        </section>
+
+        <section class="limited">
+            <img src="./images/add.png" alt="Limited offer">
+            <div class="limited-content">
+                <h2>Limited Offer</h2>
+                <h3>35% OFF on this for the first 30 Customers</h3>
+                <p>Upgrade your wardrobe with our latest fashion collection.</p>
+                <a href="collections.html" class="hero-btn">Shop Now →</a>
+            </div>
+        </section>
+
+        <section class="newsletter section">
+            <h2>Join our News Letter</h2>
+            <p>Signup for our email newspaper to get exclusive discounts, updates, and more.</p>
+            <form id="newsletterForm">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+            <p id="newsletterMsg"></p>
+        </section>
+    </main>
+
+    <footer>
+        <h2>Nostra</h2>
+        <p>Wear Your Vibe.</p>
+        <div class="socials"><a href="#">Instagram</a><a href="#">Facebook</a><a href="#">Twitter</a></div>
+        <small>© 2026 Nostra.com</small>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

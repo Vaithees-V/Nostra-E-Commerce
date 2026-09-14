@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collections | Nostra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="offer-bar">Sign Up and GET 20% OFF for your first Order</div>
+
+    <header class="navbar">
+        <a href="index.html" class="logo">Nostra</a>
+        <button class="menu-btn" id="menuBtn">☰</button>
+        <nav id="navMenu">
+            <a href="index.html">Home</a>
+            <a class="active" href="collections.html">Collections</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-heading">
+            <h1>Collections</h1>
+            <p>Explore our latest fashion styles.</p>
+        </section>
+
+        <section class="collection-layout">
+            <aside class="filter-panel">
+
+                <h2>Search</h2>
+
+                <input type="text" id="searchInput" placeholder="Search products...">
+
+
+                <!-- Categories -->
+
+                <h2>Categories</h2>
+
+                <label>
+                    <input type="checkbox" class="category-filter" value="shirt">
+                    Shirt
+                </label>
+
+                <label>
+                    <input type="checkbox" class="category-filter" value="tshirt">
+                    T-Shirt
+                </label>
+
+                <label>
+                    <input type="checkbox" class="category-filter" value="pant">
+                    Pant
+                </label>
+
+
+                <!-- Occasion -->
+
+                <h2>Occasion</h2>
+
+                <label>
+                    <input type="checkbox" class="occasion-filter" value="casual">
+                    Casual
+                </label>
+
+                <label>
+                    <input type="checkbox" class="occasion-filter" value="formal">
+                    Formal
+                </label>
+
+                <label>
+                    <input type="checkbox" class="occasion-filter" value="party">
+                    Party
+                </label>
+
+                <label>
+                    <input type="checkbox" class="occasion-filter" value="wedding">
+                    Wedding
+                </label>
+
+                <label>
+                    <input type="checkbox" class="occasion-filter" value="summer">
+                    Summer
+                </label>
+
+
+                <!-- New Arrival -->
+
+                <h2>Collection</h2>
+
+                <label>
+                    <input type="checkbox" class="category-filter" value="new">
+                    New Arrival
+                </label>
+
+                <button id="clearFilter" class="clear-btn">
+                    Clear Filters
+                </button>
+            </aside>
+
+            <section class="collection-products">
+                <div class="collection-top">
+                    <h2>All Products</h2>
+                    <span id="productCount"></span>
+                </div>
+
+                <div class="collection-grid" id="productGrid">
+
+                    <article class="collection-card product" data-name="casual shirt"
+                        data-tags="shirt casual summer new">
+
+                        <img src="./images/Casual Shirt.avif" alt="Casual Shirt">
+
+                        <h3>Casual Shirt</h3>
+                        <p>₹1,299</p>
+
+                    </article>
+
+                    <article class="collection-card product" data-name="checked shirt" data-tags="shirt casual party">
+
+                        <img src="./images/Checked Shirt.avif" alt="Checked Shirt">
+
+                        <h3>Checked Shirt</h3>
+                        <p>₹1,099</p>
+
+                    </article>
+
+                    <article class="collection-card product" data-name="formal shirt" data-tags="shirt formal wedding">
+
+                        <img src="./images/Formal Shirt.avif" alt="Formal Shirt">
+
+                        <h3>Formal Shirt</h3>
+                        <p>₹1,199</p>
+
+                    </article>
+
+                    <article class="collection-card product" data-name="cargo pant" data-tags="pant casual summer">
+
+                        <img src="./images/Cargo Pant.avif" alt="Cargo Pant">
+
+                        <h3>Cargo Pant</h3>
+                        <p>₹1,399</p>
+
+                    </article>
+
+                    <article class="collection-card product" data-name="jeans pant" data-tags="pant casual party">
+
+                        <img src="./images/Jeans Pat.avif" alt="Jeans Pant">
+
+                        <h3>Jeans Pant</h3>
+                        <p>₹1,499</p>
+
+                    </article>
+
+                    <article class="collection-card product" data-name="printed t shirt"
+                        data-tags="tshirt casual party summer">
+
+                        <img src="./images/Printed T-Shirt.avif" alt="Printed T-Shirt">
+
+                        <h3>Printed T-Shirt</h3>
+                        <p>₹1,599</p>
+
+                    </article>
+
+                    <article class="collection-card product" data-name="round neck t shirt"
+                        data-tags="tshirt casual summer new">
+
+                        <img src="./images/T-Shirt.avif" alt="Round Neck T-Shirt">
+
+                        <h3>Round Neck T-Shirt</h3>
+                        <p>₹999</p>
+
+                    </article>
+
+                    <article class="collection-card product" data-name="striped shirt"
+                        data-tags="shirt formal party wedding new">
+
+                        <img src="./images/Strip Shirt.avif" alt="Striped Shirt">
+
+                        <h3>Striped Shirt</h3>
+                        <p>₹899</p>
+
+                    </article>
+
+                </div>
+
+                <div id="noProducts" class="no-products" hidden>
+                    <h2>No products found</h2>
+                    <p>Try another search or clear your filters.</p>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <h2>Nostra</h2>
+        <p>Wear Your Vibe.</p>
+        <div class="socials"><a href="#">Instagram</a><a href="#">Facebook</a><a href="#">Twitter</a></div>
+        <small>© 2026 Nostra.com</small>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
